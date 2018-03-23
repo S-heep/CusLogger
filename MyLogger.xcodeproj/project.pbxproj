@@ -11,15 +11,9 @@
 		F198E9052064E32D004C2848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F198E9032064E32D004C2848 /* Main.storyboard */; };
 		F198E9072064E32D004C2848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F198E9062064E32D004C2848 /* Assets.xcassets */; };
 		F198E90A2064E32D004C2848 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F198E9082064E32D004C2848 /* LaunchScreen.storyboard */; };
-		F198E9162064E36E004C2848 /* AdjustSignalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198E9112064E36E004C2848 /* AdjustSignalViewController.swift */; };
-		F198E9172064E36E004C2848 /* GoBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198E9122064E36E004C2848 /* GoBackViewController.swift */; };
-		F198E9182064E36E004C2848 /* DetailLoggerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198E9132064E36E004C2848 /* DetailLoggerViewController.swift */; };
-		F198E9192064E36E004C2848 /* ShowLoggerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198E9142064E36E004C2848 /* ShowLoggerViewController.swift */; };
-		F198E91A2064E36E004C2848 /* LoggerShowManagerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198E9152064E36E004C2848 /* LoggerShowManagerVC.swift */; };
 		F198E9222064E396004C2848 /* ExceptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198E91E2064E396004C2848 /* ExceptionManager.swift */; };
 		F198E9232064E396004C2848 /* TouchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198E9202064E396004C2848 /* TouchButton.swift */; };
 		F198E9242064E396004C2848 /* SlideAdressTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F198E9212064E396004C2848 /* SlideAdressTool.m */; };
-		F198E9342064E7B6004C2848 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198E9332064E7B6004C2848 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,17 +23,11 @@
 		F198E9062064E32D004C2848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F198E9092064E32D004C2848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F198E90B2064E32D004C2848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F198E9112064E36E004C2848 /* AdjustSignalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustSignalViewController.swift; sourceTree = "<group>"; };
-		F198E9122064E36E004C2848 /* GoBackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoBackViewController.swift; sourceTree = "<group>"; };
-		F198E9132064E36E004C2848 /* DetailLoggerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailLoggerViewController.swift; sourceTree = "<group>"; };
-		F198E9142064E36E004C2848 /* ShowLoggerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowLoggerViewController.swift; sourceTree = "<group>"; };
-		F198E9152064E36E004C2848 /* LoggerShowManagerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerShowManagerVC.swift; sourceTree = "<group>"; };
 		F198E91C2064E395004C2848 /* MyLogger-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyLogger-Bridging-Header.h"; sourceTree = "<group>"; };
 		F198E91E2064E396004C2848 /* ExceptionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExceptionManager.swift; sourceTree = "<group>"; };
 		F198E91F2064E396004C2848 /* SlideAdressTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideAdressTool.h; sourceTree = "<group>"; };
 		F198E9202064E396004C2848 /* TouchButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchButton.swift; sourceTree = "<group>"; };
 		F198E9212064E396004C2848 /* SlideAdressTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideAdressTool.m; sourceTree = "<group>"; };
-		F198E9332064E7B6004C2848 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,13 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				F198E91B2064E371004C2848 /* Exception */,
-				F198E9112064E36E004C2848 /* AdjustSignalViewController.swift */,
-				F198E9132064E36E004C2848 /* DetailLoggerViewController.swift */,
-				F198E9122064E36E004C2848 /* GoBackViewController.swift */,
-				F198E9152064E36E004C2848 /* LoggerShowManagerVC.swift */,
-				F198E9142064E36E004C2848 /* ShowLoggerViewController.swift */,
 				F198E8FF2064E32D004C2848 /* AppDelegate.swift */,
-				F198E9332064E7B6004C2848 /* ViewController.swift */,
 				F198E9032064E32D004C2848 /* Main.storyboard */,
 				F198E9062064E32D004C2848 /* Assets.xcassets */,
 				F198E9082064E32D004C2848 /* LaunchScreen.storyboard */,
@@ -173,15 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F198E91A2064E36E004C2848 /* LoggerShowManagerVC.swift in Sources */,
-				F198E9192064E36E004C2848 /* ShowLoggerViewController.swift in Sources */,
 				F198E9232064E396004C2848 /* TouchButton.swift in Sources */,
 				F198E9222064E396004C2848 /* ExceptionManager.swift in Sources */,
-				F198E9342064E7B6004C2848 /* ViewController.swift in Sources */,
-				F198E9162064E36E004C2848 /* AdjustSignalViewController.swift in Sources */,
 				F198E9002064E32D004C2848 /* AppDelegate.swift in Sources */,
-				F198E9182064E36E004C2848 /* DetailLoggerViewController.swift in Sources */,
-				F198E9172064E36E004C2848 /* GoBackViewController.swift in Sources */,
 				F198E9242064E396004C2848 /* SlideAdressTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
