@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F198E9002064E32D004C2848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198E8FF2064E32D004C2848 /* AppDelegate.swift */; };
-		F198E9022064E32D004C2848 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198E9012064E32D004C2848 /* ViewController.swift */; };
 		F198E9052064E32D004C2848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F198E9032064E32D004C2848 /* Main.storyboard */; };
 		F198E9072064E32D004C2848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F198E9062064E32D004C2848 /* Assets.xcassets */; };
 		F198E90A2064E32D004C2848 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F198E9082064E32D004C2848 /* LaunchScreen.storyboard */; };
@@ -21,12 +20,12 @@
 		F198E9232064E396004C2848 /* TouchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198E9202064E396004C2848 /* TouchButton.swift */; };
 		F198E9242064E396004C2848 /* SlideAdressTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F198E9212064E396004C2848 /* SlideAdressTool.m */; };
 		F198E9262064E5F2004C2848 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198E9252064E5F2004C2848 /* TableViewController.swift */; };
+		F198E9282064E685004C2848 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198E9272064E685004C2848 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F198E8FC2064E32D004C2848 /* MyLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F198E8FF2064E32D004C2848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F198E9012064E32D004C2848 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F198E9042064E32D004C2848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F198E9062064E32D004C2848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F198E9092064E32D004C2848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,6 +41,7 @@
 		F198E9202064E396004C2848 /* TouchButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchButton.swift; sourceTree = "<group>"; };
 		F198E9212064E396004C2848 /* SlideAdressTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideAdressTool.m; sourceTree = "<group>"; };
 		F198E9252064E5F2004C2848 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		F198E9272064E685004C2848 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,11 +82,11 @@
 				F198E9142064E36E004C2848 /* ShowLoggerViewController.swift */,
 				F198E9252064E5F2004C2848 /* TableViewController.swift */,
 				F198E8FF2064E32D004C2848 /* AppDelegate.swift */,
-				F198E9012064E32D004C2848 /* ViewController.swift */,
 				F198E9032064E32D004C2848 /* Main.storyboard */,
 				F198E9062064E32D004C2848 /* Assets.xcassets */,
 				F198E9082064E32D004C2848 /* LaunchScreen.storyboard */,
 				F198E90B2064E32D004C2848 /* Info.plist */,
+				F198E9272064E685004C2848 /* ViewController.swift */,
 			);
 			path = MyLogger;
 			sourceTree = "<group>";
@@ -176,11 +176,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F198E9022064E32D004C2848 /* ViewController.swift in Sources */,
 				F198E91A2064E36E004C2848 /* LoggerShowManagerVC.swift in Sources */,
 				F198E9192064E36E004C2848 /* ShowLoggerViewController.swift in Sources */,
 				F198E9232064E396004C2848 /* TouchButton.swift in Sources */,
 				F198E9222064E396004C2848 /* ExceptionManager.swift in Sources */,
+				F198E9282064E685004C2848 /* ViewController.swift in Sources */,
 				F198E9162064E36E004C2848 /* AdjustSignalViewController.swift in Sources */,
 				F198E9262064E5F2004C2848 /* TableViewController.swift in Sources */,
 				F198E9002064E32D004C2848 /* AppDelegate.swift in Sources */,
