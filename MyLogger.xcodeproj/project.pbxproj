@@ -14,11 +14,6 @@
 		F198E9222064E396004C2848 /* ExceptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198E91E2064E396004C2848 /* ExceptionManager.swift */; };
 		F198E9232064E396004C2848 /* TouchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198E9202064E396004C2848 /* TouchButton.swift */; };
 		F198E9242064E396004C2848 /* SlideAdressTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F198E9212064E396004C2848 /* SlideAdressTool.m */; };
-		F198E9442064E9F5004C2848 /* AdjustSignalViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198E93F2064E9F4004C2848 /* AdjustSignalViewControler.swift */; };
-		F198E9452064E9F5004C2848 /* GoBackViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198E9402064E9F5004C2848 /* GoBackViewControler.swift */; };
-		F198E9462064E9F5004C2848 /* DetailLoggerViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198E9412064E9F5004C2848 /* DetailLoggerViewControler.swift */; };
-		F198E9472064E9F5004C2848 /* ShowLoggerViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198E9422064E9F5004C2848 /* ShowLoggerViewControler.swift */; };
-		F198E9482064E9F5004C2848 /* LoggerShowManageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198E9432064E9F5004C2848 /* LoggerShowManageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,11 +28,6 @@
 		F198E91F2064E396004C2848 /* SlideAdressTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideAdressTool.h; sourceTree = "<group>"; };
 		F198E9202064E396004C2848 /* TouchButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchButton.swift; sourceTree = "<group>"; };
 		F198E9212064E396004C2848 /* SlideAdressTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideAdressTool.m; sourceTree = "<group>"; };
-		F198E93F2064E9F4004C2848 /* AdjustSignalViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustSignalViewControler.swift; sourceTree = "<group>"; };
-		F198E9402064E9F5004C2848 /* GoBackViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoBackViewControler.swift; sourceTree = "<group>"; };
-		F198E9412064E9F5004C2848 /* DetailLoggerViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailLoggerViewControler.swift; sourceTree = "<group>"; };
-		F198E9422064E9F5004C2848 /* ShowLoggerViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowLoggerViewControler.swift; sourceTree = "<group>"; };
-		F198E9432064E9F5004C2848 /* LoggerShowManageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerShowManageVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,11 +60,6 @@
 		F198E8FE2064E32D004C2848 /* MyLogger */ = {
 			isa = PBXGroup;
 			children = (
-				F198E93F2064E9F4004C2848 /* AdjustSignalViewControler.swift */,
-				F198E9412064E9F5004C2848 /* DetailLoggerViewControler.swift */,
-				F198E9402064E9F5004C2848 /* GoBackViewControler.swift */,
-				F198E9432064E9F5004C2848 /* LoggerShowManageVC.swift */,
-				F198E9422064E9F5004C2848 /* ShowLoggerViewControler.swift */,
 				F198E91B2064E371004C2848 /* Exception */,
 				F198E8FF2064E32D004C2848 /* AppDelegate.swift */,
 				F198E9032064E32D004C2848 /* Main.storyboard */,
@@ -170,15 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F198E9462064E9F5004C2848 /* DetailLoggerViewControler.swift in Sources */,
-				F198E9472064E9F5004C2848 /* ShowLoggerViewControler.swift in Sources */,
 				F198E9232064E396004C2848 /* TouchButton.swift in Sources */,
-				F198E9482064E9F5004C2848 /* LoggerShowManageVC.swift in Sources */,
-				F198E9442064E9F5004C2848 /* AdjustSignalViewControler.swift in Sources */,
 				F198E9222064E396004C2848 /* ExceptionManager.swift in Sources */,
 				F198E9002064E32D004C2848 /* AppDelegate.swift in Sources */,
 				F198E9242064E396004C2848 /* SlideAdressTool.m in Sources */,
-				F198E9452064E9F5004C2848 /* GoBackViewControler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
