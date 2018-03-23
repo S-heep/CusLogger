@@ -74,7 +74,6 @@
 		F198E8FE2064E32D004C2848 /* MyLogger */ = {
 			isa = PBXGroup;
 			children = (
-				F198E9332064E7B6004C2848 /* ViewController.swift */,
 				F198E91B2064E371004C2848 /* Exception */,
 				F198E9112064E36E004C2848 /* AdjustSignalViewController.swift */,
 				F198E9132064E36E004C2848 /* DetailLoggerViewController.swift */,
@@ -83,6 +82,7 @@
 				F198E9142064E36E004C2848 /* ShowLoggerViewController.swift */,
 				F198E9252064E5F2004C2848 /* TableViewController.swift */,
 				F198E8FF2064E32D004C2848 /* AppDelegate.swift */,
+				F198E9332064E7B6004C2848 /* ViewController.swift */,
 				F198E9032064E32D004C2848 /* Main.storyboard */,
 				F198E9062064E32D004C2848 /* Assets.xcassets */,
 				F198E9082064E32D004C2848 /* LaunchScreen.storyboard */,
