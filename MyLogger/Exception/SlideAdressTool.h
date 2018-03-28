@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface SlideAdressTool : NSObject
++ (void)redirectLogToDocumentFolder;
 @end
 long calculate(void);

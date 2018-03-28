@@ -45,7 +45,7 @@ class ShowLoggerViewControler: UIViewController {
     }
 }
 
-extension ShowLoggerViewController: UITableViewDelegate, UITableViewDataSource {
+extension ShowLoggerViewControler: UITableViewDelegate, UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         return 3
         // 可以返回3个section，其中的一个进行旧文件的清理工作
@@ -103,7 +103,7 @@ extension ShowLoggerViewController: UITableViewDelegate, UITableViewDataSource {
         if indexPath.section == 0 {
             do {
                 let crashInfo = try String.init(contentsOfFile: crashLoggerFile, encoding: String.Encoding.utf8)
-                let vc = DetailLoggerViewController()
+                let vc = DetailLoggerViewControler()
                 vc.initLogContent(logString: crashInfo)
                 self.navigationController?.pushViewController(vc, animated: true)
 
@@ -114,7 +114,7 @@ extension ShowLoggerViewController: UITableViewDelegate, UITableViewDataSource {
         }
         if indexPath.section == 1 {
             do {
-                let vc = DetailLoggerViewController()
+                let vc = DetailLoggerViewControler()
                 self.navigationController?.pushViewController(vc, animated: true)
 
             } catch {

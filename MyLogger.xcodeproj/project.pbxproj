@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F146282A2064F07E00A3F4EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14628292064F07E00A3F4EC /* ViewController.swift */; };
 		F198E9002064E32D004C2848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198E8FF2064E32D004C2848 /* AppDelegate.swift */; };
 		F198E9052064E32D004C2848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F198E9032064E32D004C2848 /* Main.storyboard */; };
 		F198E9072064E32D004C2848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F198E9062064E32D004C2848 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F14628292064F07E00A3F4EC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F198E8FC2064E32D004C2848 /* MyLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F198E8FF2064E32D004C2848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F198E9042064E32D004C2848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		F198E8FE2064E32D004C2848 /* MyLogger */ = {
 			isa = PBXGroup;
 			children = (
+				F14628292064F07E00A3F4EC /* ViewController.swift */,
 				F198E9722064EF1F004C2848 /* AdjustSignalViewControler.swift */,
 				F198E9742064EF20004C2848 /* DetailLoggerViewControler.swift */,
 				F198E9732064EF1F004C2848 /* GoBackViewControler.swift */,
@@ -170,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F146282A2064F07E00A3F4EC /* ViewController.swift in Sources */,
 				F198E9792064EF20004C2848 /* DetailLoggerViewControler.swift in Sources */,
 				F198E97A2064EF20004C2848 /* ShowLoggerViewControler.swift in Sources */,
 				F198E9232064E396004C2848 /* TouchButton.swift in Sources */,

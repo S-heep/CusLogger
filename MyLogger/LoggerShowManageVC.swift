@@ -14,9 +14,9 @@ class LoggerShowManageVC: UITabBarController {
         super.viewDidLoad()
         UITabBar.appearance().tintColor = UIColor.init(red: 181.0/255, green: 104.0/255, blue: 48.0/255, alpha: 1)
 
-        addChildViewController(childController: ShowLoggerViewController(), title: "日志", imageName: "toolBar_1")
-        addChildViewController(childController: AdjustSignalViewController(), title: "信号强度调节", imageName: "toolBar_2")
-        addChildViewController(childController: GoBackViewController(), title: "返回App", imageName: "toolBar_3")
+        addChildViewController(childController: ShowLoggerViewControler(), title: "日志", imageName: "toolBar_1")
+        addChildViewController(childController: AdjustSignalViewControler(), title: "信号强度调节", imageName: "toolBar_2")
+        addChildViewController(childController: GoBackViewControler(), title: "返回App", imageName: "toolBar_3")
         self.view.backgroundColor = UIColor.white
     }
 

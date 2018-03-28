@@ -26,4 +26,23 @@ long  calculate(void){
     return slide;
 }
 
++ (void)redirectLogToDocumentFolder
+{
+    // 获取沙盒路径
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask,YES);
+    NSString *documentDirectory = [paths objectAtIndex:0];
+    // 获取打印输出文件路径
+    NSString *fileName = [NSString stringWithFormat:@"myData.txt"];
+    NSLog(@"%@",paths);
+    NSLog(@"能不能输出到控制台");
+    NSString *logFilePath = [documentDirectory stringByAppendingPathComponent:fileName];
+    // 先删除已经存在的文件
+    NSFileManager *defaultManager = [NSFileManager defaultManager];
+    [defaultManager removeItemAtPath:logFilePath error:nil];
+    // 将NSLog的输出重定向到文件，因为C语言的printf打印是往stdout打印的，这里也把它重定向到文件
+    freopen([logFilePath cStringUsingEncoding:NSASCIIStringEncoding],"a+", stdout);
+    freopen([logFilePath cStringUsingEncoding:NSASCIIStringEncoding],"a+", stderr);
+    NSLog(@"能不能输出到控制台呢");
+}
+
 @end

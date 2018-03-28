@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 func signalExceptionHandler(signal: Int32) {
 
     var mstr = String()
